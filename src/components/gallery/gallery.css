@@ -1,0 +1,22 @@
+.Gallery {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    margin: 0 auto;
+    transform: translateY(30%);
+    width: 600px;
+}
+.Gallery__counter,
+.Gallery__rename{
+    padding: 20px 40px;
+}
+.Gallery__wrapper_rename,
+.Gallery__renameButton {
+    display: inline-block;
+    width: 50%;
+}
+.Gallery__addButton,
+.Gallery__count,
+.Gallery__removeButton {
+    display: inline-block;
+    width: 33.33%;
+    text-align: center;
+}

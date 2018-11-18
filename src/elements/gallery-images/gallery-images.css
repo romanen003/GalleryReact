@@ -1,0 +1,25 @@
+.Gallery__images {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    box-sizing: border-box;
+    height: 210px;
+    padding: 10px;
+    overflow-x: hidden;
+    text-align: left;
+}
+.Gallery__imageBox {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 190px;
+    padding: 5px 20px 0 20px;
+    margin-bottom: 10px;
+    width: 33.33%;
+    vertical-align: top;
+}
+.Gallery__imageBox_active {
+    box-shadow: 0px 0px 10px 10px grey;
+}
+.Images__item {
+    height: 160px;
+    width: 100%;
+}
+
